@@ -18,9 +18,8 @@ h2{
 /* a tags*/
 a {
 	text-decoration: none;
-}
-a:visited {
 	color:#000;
+	font-weight: bold;
 }
 
 /* Content Elements */
@@ -112,11 +111,11 @@ footer {
 	text-align: center;
 	display: none;
 	border-radius: 8px 8px 8px 8px;
+	box-shadow: 5px 5px 5px #ccc;
 	border: 1px solid #ccc;
 }
 #alertButtonYes {
 	width: 100px;
-	padding: 0 0px 0 0;
 }
 #alertButtonNo {
 	width: 100px;

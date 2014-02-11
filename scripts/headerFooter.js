@@ -11,7 +11,7 @@ header.appendChild(nav);
 //Create h1
 var h1 = document.createElement('h1');
 header.appendChild(h1);	
-h1.innerText = "Web Technology: Parallax Scrolling";
+h1.innerHTML = "Web Technology: Parallax Scrolling";
 
 //Call in the footer
 var footer = document.getElementById('footer');
