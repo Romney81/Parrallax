@@ -20,7 +20,7 @@ var footer = document.getElementById('footer');
 var cloneNav = nav.cloneNode(true);
 
 //Append Footer
-footer.appendChild(cloneNav);
+footer.appendChild(cloneNav); 
 
 //-------------------------- Custom Alert ------------------------------//
 
