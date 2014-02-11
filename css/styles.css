@@ -1,0 +1,123 @@
+/* CSS for Index.html*/
+body{
+	width: 100%; 
+	font-family: 'Open Sans', sans-serif; 
+	background:url(../images/index-bg.png)
+}
+/* Header Tags */
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 4em;
+	font-style:italic;
+}
+h2{
+	color: #000;
+}
+
+/* a tags*/
+a {
+	text-decoration: none;
+}
+a:visited {
+	color:#000;
+}
+
+/* Content Elements */
+#main-body {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	position: relative;
+}
+.image-code {
+	width: 70%;
+	margin: 22px 30px 0 0;
+	float: left;
+	box-shadow: 10px 10px 5px #ccc;
+}
+#main-body h2 {
+	border-top: 1px solid #000;
+	padding-top: 15px;
+}
+
+/* Header and Footer Styles */	
+header {
+	text-align: center;
+}
+footer {
+	text-align:center;
+	border-top: 1px solid #000;
+	margin: 20px 0;
+}
+
+/* Content ul & li styles*/
+.examples ul li {
+	float: left;
+	list-style-type:none;
+	padding: 10px 20px;
+	width: 40%;
+	transition:width 2s; /* This is to create the hover affect */
+	-webkit-transition:width 2s; /* Safari */
+}
+.examples ul li:hover {
+	width: 43%
+}
+#main-body .examples img {
+	width: 100%;
+	box-shadow: 10px 10px 5px #ccc;
+	float: left;
+}
+
+/* Clear Floats */
+.clear {
+	clear:both;
+}
+
+/* CSS for Parallax.html */
+.container {
+	padding: 400px 200px; /* This gives our headings a bit of breathing room */ 
+} 
+.js-background-1 {
+	/* background:url(../images/background1.jpg) center 0 no-repeat transparent; */
+} 
+.js-background-2 {
+	/* background:url(../images/background2.jpg) center 0 no-repeat transparent ;*/ position: relative; 
+}
+#stars h2 {
+	color:#fff;
+}
+.xwing {
+	position: absolute;
+	top:50px;
+	right: 600px;
+}
+.deathstar {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#stars {
+	background:url(../images/sky.PNG)
+}
+
+/* Alert Box Styles */
+#alertBox {
+	width: 300px;
+	height: 120px;
+	position: absolute;
+	top: 4%;
+	left: 38%;
+	background: #fff;
+	text-align: center;
+	display: none;
+	border-radius: 8px 8px 8px 8px;
+	border: 1px solid #ccc;
+}
+#alertButtonYes {
+	width: 100px;
+	padding: 0 0px 0 0;
+}
+#alertButtonNo {
+	width: 100px;
+}
