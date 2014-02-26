@@ -22,6 +22,7 @@ var cloneNav = nav.cloneNode(true);
 //Append Footer
 footer.appendChild(cloneNav); 
 
+
 //-------------------------- Custom Alert ------------------------------//
 
 //Custom Alert

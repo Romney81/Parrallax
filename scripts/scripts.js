@@ -18,4 +18,8 @@ function update(){
 	}); 
 }; 
 $window.bind('scroll', update); 
- 
+$(document).ready(function() {
+    $("#tabs").tabs();
+    $(".image-code").colorbox();
+	$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+});

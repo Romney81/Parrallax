@@ -21,28 +21,25 @@
 					<p>You might be wondering, what exactly is Parallax Scrolling? Parallax scrolling creates a intuitive seamless website that allows for you to switch through different tabs on the site by simply scrolling. Parallax scrolling helps create an interactive environment that allows for the movement of different objects and different velocities. Web developers can allow for the content of the page to change just by the movement and position of your curser. </p>
 					<p>If that catches your interest just as much as it did mine I have several different examples of Parallax scrolling below.</p>
 					<h2>Some Parallax Examples</h2>
-					<div id="tabs">
-						
-						<ul>
-							<li><a href="#tab-1">Boy-Coy</a></li>
-							<li><a href="#tab-2">Sweez</a></li>
-							<li><a href="#tab-3">Puma</a></li>
-							<li><a href="#tab-4">Pi</a></li>
+						<ul class="tabs">
+							<li><a href="#tab1">Boy-Coy</a></li>
+							<li><a href="#tab2">Sweez</a></li>
+							<li><a href="#tab3">Puma</a></li>
+							<li><a href="#tab4">Pi</a></li>
 						</ul>
-						<div id="tab-1">
+						<div id="tab1">
 							<a class="iframe" href="http://boy-coy.com/"><img src="images/boycoy.PNG" /></a>
 						</div>
-						<div id="tab-2">
+						<div id="tab2">
 							<a class="iframe" href="http://www.sweez.com.br/"><img class="" src="images/sweez.PNG" /></a>
 						</div>
-						<div id="tab-3">
+						<div id="tab3">
 							<a class="iframe" href="http://www.puma.com/mobium/"><img src="images/puma.PNG" /></a>
 						</div>
-						<div id="tab-4">
+						<div id="tab4">
 							<a class="iframe" href="http://journey.lifeofpimovie.com/#!/waves"><img src="images/pi.PNG" /></a>
 						</div>
 						<div class="clear"></div>
-					</div>
 					<h2>Making Your Page Use Parallax Scrolling</h2>
 					<p>Giving your page such a fantastic feel is no easy task. One thing you can do if your not excited about making your page from scratch is go to <a class="animate" href="http://wagerfield.github.io/parallax/">parallax.js</a> and download their javascript to implement in your site.</p>
 					<p>For those seeking adventure and maybe frustration can code it from scratch. Im going to go over some example code of parallax scrolling.</p>
@@ -83,8 +80,7 @@
 				</footer>
 			</section>
 		</section>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-		<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="colorbox-master/jquery.colorbox.js"></script>
 		<script type="text/javascript" src="scripts/scripts.js"></script>
 		<script type="text/javascript" src="scripts/headerFooter.js"></script>

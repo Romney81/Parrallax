@@ -29,7 +29,7 @@ a {
 	width: 60%;
 	position: relative;
 }
-.image-code {
+.code img {
 	width: 70%;
 	margin: 22px 30px 0 0;
 	float: left;
@@ -56,18 +56,8 @@ footer {
 	list-style-type:none;
 	padding: 10px 20px;
 	width: 40%;
-	transition:width 2s; /* This is to create the hover affect */
-	-webkit-transition:width 2s; /* Safari */
+	
 }
-.examples ul li:hover {
-	width: 43%
-}
-#main-body .examples img {
-	width: 100%;
-	box-shadow: 10px 10px 5px #ccc;
-	float: left;
-}
-
 /* Clear Floats */
 .clear {
 	clear:both;
@@ -120,3 +110,26 @@ footer {
 #alertButtonNo {
 	width: 100px;
 }
+#tabs {
+	display: block;
+	width: 58%;
+}
+#tabs img {
+	width: 100%;
+	box-shadow: 10px 10px 5px #ccc;
+	margin-bottom: 20px;
+	float: left;
+	transition:width 2s; /* This is to create the hover affect */
+	-webkit-transition:width 1s; /* Safari */
+}
+#tabs img:hover {
+	width: 102%
+}
+
+#tabs ul {width: 98%;}
+#tabs ul li:first-child {margin-left: 22px;}
+#tabs ul li {width: 22.8%;}
+#tabs ul li a {
+	width: 100%;
+}
+#tabs .ui-widget-header {border:none; background: none;}
