@@ -18,6 +18,8 @@ function update(){
 	}); 
 }; 
 $window.bind('scroll', update); 
+
+//Tabs and Colorbox
 $(document).ready(function() {
     $("#tabs").tabs();
     $(".image-code").colorbox();
